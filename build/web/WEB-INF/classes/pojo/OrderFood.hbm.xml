@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.OrderFood" table="order_food" catalog="rms1" optimistic-lock="version">
+        <id name="ofid" type="java.lang.Integer">
+            <column name="ofid" />
+            <generator class="identity" />
+        </id>
+        <property name="orderId" type="int">
+            <column name="orderId" not-null="true" />
+        </property>
+        <property name="foodId" type="int">
+            <column name="foodId" not-null="true" />
+        </property>
+        <property name="qty" type="int">
+            <column name="qty" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

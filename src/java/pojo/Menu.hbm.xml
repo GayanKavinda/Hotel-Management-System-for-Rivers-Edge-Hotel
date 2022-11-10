@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Menu" table="menu" catalog="rms1" optimistic-lock="version">
+        <id name="menuId" type="java.lang.Integer">
+            <column name="menuId" />
+            <generator class="identity" />
+        </id>
+        <property name="foodName" type="string">
+            <column name="foodName" length="243" not-null="true" unique="true" />
+        </property>
+        <property name="price" type="double">
+            <column name="price" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="foodId" type="int">
+            <column name="foodId" not-null="true" />
+        </property>
+        <property name="menuType" type="string">
+            <column name="menuType" length="243" not-null="true" />
+        </property>
+        <property name="portionSize" type="string">
+            <column name="portion_size" length="65535" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

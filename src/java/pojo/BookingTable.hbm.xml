@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.BookingTable" table="booking_table" catalog="rms1" optimistic-lock="version">
+        <id name="bookId" type="java.lang.Integer">
+            <column name="bookId" />
+            <generator class="identity" />
+        </id>
+        <property name="status" type="string">
+            <column name="status" length="243" not-null="true" />
+        </property>
+        <property name="numberOfSeat" type="int">
+            <column name="numberOfSeat" not-null="true" />
+        </property>
+        <property name="cid" type="int">
+            <column name="cid" not-null="true" />
+        </property>
+        <property name="mealplan" type="string">
+            <column name="mealplan" length="233" not-null="true" />
+        </property>
+        <property name="occasionz" type="string">
+            <column name="occasionz" length="233" not-null="true" />
+        </property>
+        <property name="bookeddate" type="string">
+            <column name="bookeddate" length="233" not-null="true" />
+        </property>
+        <property name="booktime" type="string">
+            <column name="booktime" length="233" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

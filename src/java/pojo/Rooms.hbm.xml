@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Rooms" table="rooms" catalog="rms1" optimistic-lock="version">
+        <id name="roomId" type="java.lang.Integer">
+            <column name="room_id" />
+            <generator class="identity" />
+        </id>
+        <property name="roomNumber" type="int">
+            <column name="room_number" not-null="true" />
+        </property>
+        <property name="roomType" type="string">
+            <column name="room_type" length="200" not-null="true" />
+        </property>
+        <property name="adults" type="int">
+            <column name="adults" not-null="true" />
+        </property>
+        <property name="children" type="int">
+            <column name="children" not-null="true" />
+        </property>
+        <property name="duration" type="int">
+            <column name="duration" not-null="true" />
+        </property>
+        <property name="advance" type="double">
+            <column name="advance" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="checkIn" type="date">
+            <column name="check_in" length="10" not-null="true" />
+        </property>
+        <property name="checkOut" type="date">
+            <column name="check_out" length="10" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

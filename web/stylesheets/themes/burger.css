@@ -1,0 +1,164 @@
+/* Color Theme 
+-----------------------------------------------------------------*/
+::selection {
+  background: #fc923c;
+}
+::-moz-selection {
+  background: #fc923c;
+}
+::-webkit-selection {
+  background: #fc923c;
+}
+.btn-dark {
+  color: #ffffff;
+  background-color: #fc923c;
+  border-color: #fc923c;
+}
+.btn-dark,
+.btn-gold,
+.primary-bg,
+.btn-gold:hover {
+  border-color: #fc923c;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark.focus,
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  background-color: #fc923c;
+  border-color: #fc923c;
+}
+.skippr-nav-container .skippr-nav-element:hover,
+.skippr-nav-container .skippr-nav-element-active,
+.overlay_content .overlay_item .overlay .icons .label,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover,
+.btn-dark,
+.primary-bg,
+.btn-gold:hover,
+.our-menu .overlay_content .label,
+.interest-in .overlay_content .label,
+.menu_grid .overlay_content .label,
+.menu_list .overlay_content .label,
+#loader .spinner > div,
+#loader2 .sk-spinner-wave.sk-spinner > div,
+.primary-bg:hover,
+.single-menu .tagged .label,
+.single-menu .reviews-tabs .nav-tabs > li.active > a,
+.btn-gold:active,
+.btn-gold:focus,
+.btn.btn-black:hover,
+.menu_tabs div.our-menu-tab-menu div.list-group > a.active,
+#shop_cart > a > span,
+.label-default,
+.owl-theme .owl-controls .owl-page.active span,
+#scroll_up:hover,
+.menu-item-list .label,
+#loader3,
+.pagination-gold > li > a:hover,
+.pagination-gold > li > span:hover,
+.pagination-gold > li > a:focus,
+.pagination-gold > li > span:focus,
+.color-bg,
+.label-tagged:hover,
+.side-bar .custom-search-form .input-group-btn:hover,
+#accordion_majesty a:hover.panel-link,
+.menu_tabs div.tab-menu div.list-group > a.active,
+.color-bg {
+  background-color: #fc923c;
+  background: #fc923c;
+}
+.blockquote:before,
+a.comment-reply-link:hover i,
+.blog_list .blog-content a:hover,
+.blog_single .blog-content a:hover,
+.blog_list_2 .blog-content a:hover,
+.blog_list .text-content a i,
+.blog_single .text-content a i,
+.blog_list_2 .text-content a i,
+#menu-fillter a:after,
+.testimonials blockquote:before,
+.our_team .item .overlay_content .icons a:hover i,
+.team-style-2 .item .overlay_content .icons a:hover i,
+.inner-team .item .overlay_content .icons a:hover i,
+.inner-team .item a:hover,
+.overlay_content .button i,
+#menu-scroll li a:after,
+.single-menu .desc-content .shop i,
+a:hover,
+a:focus,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+#header-sticky-wrapper.is-sticky #header #main-menu > ul > li.current > a,
+#header-sticky-wrapper.is-sticky #header #shop_cart > a > i:hover,
+#header-sticky-wrapper.is-sticky #header #main-menu > ul > li > a.current,
+#main-menu > ul > li a.current,
+#header-sticky-wrapper.is-sticky #header #main-menu > ul > li > a:hover,
+#header-sticky-wrapper.is-sticky #header #shop_cart > a > i:hover,
+#shop_cart > a > i:hover,
+#shop_cart > a:hover,
+#shop_cart .cart_items a:hover,
+#shop_cart .shop_checkout_price,
+.rating span.active i,
+.rating i:hover,
+table.table-cart tr td a,
+.wishlist .social-share a:hover,
+.sitemap h3 i,
+.team-style-2 #our_team_carousel .overlay_content .desc a:hover,
+.our_team .item .overlay_content .icons a:hover i,
+.menu_tabs .item_desc .btn-gold i,
+.masonry_menu #menu-fillter a:after,
+#header.dark-header #main-menu.dark ul ul a:hover,
+#header.dark-header #main-menu ul li a:hover,
+#main-menu > ul > li:hover > a,
+#main-menu > ul > li.current a,
+#main-menu > div > ul > li:hover a,
+#main-menu ul li a:hover,
+#main-menu ul ul li:hover > a,
+#main-menu > div > ul > li:hover a,
+#main-menu > div > ul > li.current a,
+#main-menu ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title:hover > a,
+#main-menu ul li .mega-menu-content.style-dropdown > ul > li.mega-menu-title > a:hover,
+.dark.overlay-menu #header-wrap:not(.not-dark) #main-menu > ul > li:hover > a,
+.dark.overlay-menu #header-wrap:not(.not-dark) #main-menu > ul > li.current > a,
+.overlay-menu #main-menu.dark > ul > li:hover > a,
+.overlay-menu #main-menu.dark > ul > li.current > a,
+.error-404 h1,
+.our_team #our_team_carousel a:hover,
+.team-style-2 #our_team_carousel a:hover,
+.inner-team #our_team_carousel a:hover,
+.dark a:hover,
+.dark button:hover,
+.footer_logo a {
+  color: #fc923c;
+}
+.pagination-gold > li > a:hover,
+.pagination-gold > li > span:hover,
+.pagination-gold > li > a:focus,
+.pagination-gold > li > span:focus,
+.pagination-gold > li > a,
+.pagination-gold > li > span,
+.pagination-gold li i,
+#shop_cart .shop_cart_content,
+.btn.btn-black:hover,
+.countdown-section,
+.date-block-dark .date-blocks .block-item {
+  border-color: #fc923c;
+}
+#main-menu.dark ul ul,
+#main-menu.dark ul li .mega-menu-content,
+#main-menu ul ul,
+#main-menu ul li .mega-menu-content {
+  border-top-color: #fc923c;
+}
+.blog_single .post-meta a span:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Income" table="income" catalog="rms1" optimistic-lock="version">
+        <id name="incomeDate" type="date">
+            <column name="income_date" length="10" />
+            <generator class="assigned" />
+        </id>
+        <property name="totIncome" type="java.lang.Float">
+            <column name="tot_income" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

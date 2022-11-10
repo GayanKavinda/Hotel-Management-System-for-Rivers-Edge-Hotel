@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.ItemFood" table="item_food" catalog="rms1" optimistic-lock="version">
+        <id name="fooditemId" type="java.lang.Integer">
+            <column name="fooditemId" />
+            <generator class="identity" />
+        </id>
+        <property name="itemId" type="int">
+            <column name="itemId" not-null="true" />
+        </property>
+        <property name="foodId" type="int">
+            <column name="foodId" not-null="true" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="quantity" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

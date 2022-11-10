@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Sndmessagetosupplier" table="sndmessagetosupplier" catalog="rms1" optimistic-lock="version">
+        <id name="idmessage" type="java.lang.Integer">
+            <column name="idmessage" />
+            <generator class="identity" />
+        </id>
+        <property name="suppliername" type="string">
+            <column name="suppliername" length="233" />
+        </property>
+        <property name="suppliermessage" type="string">
+            <column name="suppliermessage" length="65535" />
+        </property>
+        <property name="senddate" type="string">
+            <column name="senddate" length="233" />
+        </property>
+        <property name="sendtime" type="string">
+            <column name="sendtime" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>

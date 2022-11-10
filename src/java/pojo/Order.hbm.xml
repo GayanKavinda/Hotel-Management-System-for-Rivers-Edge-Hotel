@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Order" table="order" catalog="rms1" optimistic-lock="version">
+        <id name="orderId" type="java.lang.Integer">
+            <column name="orderId" />
+            <generator class="identity" />
+        </id>
+        <property name="cid" type="int">
+            <column name="cid" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" length="233" not-null="true" />
+        </property>
+        <property name="time" type="string">
+            <column name="time" length="233" not-null="true" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Bill" table="bill" catalog="rms1" optimistic-lock="version">
+        <id name="billid" type="java.lang.Integer">
+            <column name="billid" />
+            <generator class="identity" />
+        </id>
+        <property name="orderId" type="int">
+            <column name="orderId" not-null="true" />
+        </property>
+        <property name="amount" type="int">
+            <column name="amount" not-null="true" />
+        </property>
+        <property name="timez" type="string">
+            <column name="timez" length="233" not-null="true" />
+        </property>
+        <property name="datez" type="string">
+            <column name="datez" length="233" not-null="true" />
+        </property>
+        <property name="statuz" type="string">
+            <column name="statuz" length="233" />
+        </property>
+        <property name="customerid" type="string">
+            <column name="customerid" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>

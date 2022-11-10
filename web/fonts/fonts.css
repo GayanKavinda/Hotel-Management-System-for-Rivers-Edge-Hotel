@@ -1,0 +1,19 @@
+/*FONTS.CSS*/
+/* YOUR CUSTOM FONTS CAN BE DEFINED HERE VIA CSS3 FONT-FACE TECHNOLOGY*/
+/* More info : http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/ */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.font1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+.font2 {
+  font-family: 'Courgette', cursive !important;
+}
+.font3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+body,
+p {
+  font-family: 'Open Sans', sans-serif;
+}

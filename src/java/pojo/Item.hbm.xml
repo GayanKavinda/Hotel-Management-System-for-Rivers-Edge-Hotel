@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Item" table="item" catalog="rms1" optimistic-lock="version">
+        <id name="itemId" type="java.lang.Integer">
+            <column name="itemId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="Name" length="243" not-null="true" />
+        </property>
+        <property name="unitprice" type="double">
+            <column name="unitprice" precision="22" scale="0" not-null="true" />
+        </property>
+        <property name="category" type="string">
+            <column name="category" length="243" not-null="true" />
+        </property>
+        <property name="reorder" type="int">
+            <column name="reorder" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

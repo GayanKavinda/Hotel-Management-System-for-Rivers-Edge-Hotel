@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Customerpark" table="customerpark" catalog="rms1" optimistic-lock="version">
+        <id name="parkId" type="java.lang.Integer">
+            <column name="parkId" />
+            <generator class="identity" />
+        </id>
+        <property name="slotId" type="int">
+            <column name="slotId" not-null="true" unique="true" />
+        </property>
+        <property name="cid" type="int">
+            <column name="cid" not-null="true" />
+        </property>
+        <property name="time" type="string">
+            <column name="time" length="233" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" length="233" not-null="true" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" length="243" not-null="true" />
+        </property>
+        <property name="duration" type="string">
+            <column name="duration" length="243" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

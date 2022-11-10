@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Employee" table="employee" catalog="rms1" optimistic-lock="version">
+        <id name="eid" type="java.lang.Integer">
+            <column name="eid" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="243" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="243" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="243" not-null="true" />
+        </property>
+        <property name="position" type="string">
+            <column name="position" length="243" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="243" not-null="true" />
+        </property>
+        <property name="phonenumber" type="string">
+            <column name="phonenumber" length="243" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

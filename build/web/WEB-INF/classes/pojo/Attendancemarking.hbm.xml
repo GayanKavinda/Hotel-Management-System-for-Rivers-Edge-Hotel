@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 17, 2020 5:48:10 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Attendancemarking" table="attendancemarking" catalog="rms1" optimistic-lock="version">
+        <id name="attendanceid" type="java.lang.Integer">
+            <column name="attendanceid" />
+            <generator class="identity" />
+        </id>
+        <property name="employeeid" type="string">
+            <column name="employeeid" length="234" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" length="233" />
+        </property>
+        <property name="monthz" type="string">
+            <column name="monthz" length="233" />
+        </property>
+    </class>
+</hibernate-mapping>
